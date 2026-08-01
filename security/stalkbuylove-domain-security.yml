@@ -1,0 +1,16 @@
+generated: '2026-07-21'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: stalkbuylove.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Dec 16 20:58:21 2026 GMT
+  hsts: null
+domains:
+- domain: stalkbuylove.com
+  dnssec: false
+  caa: []
+  spf: false
+  dmarc: true
+  dmarc_policy: reject
